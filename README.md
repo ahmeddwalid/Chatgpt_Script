@@ -24,7 +24,7 @@ Follow these steps to run the script on Windows:
    - Paste it into your web browser
 
 4. **Complete authentication**
-   - Visit the [ChatGPT for Teachers]([https://help.openai.com/en/articles/12844995-chatgpt-for-teachers](https://chatgpt.com/k12-verification)) page
+   - Visit the [ChatGPT for Teachers](https://chatgpt.com/k12-verification) page
    - Sign in using your registered email address
 
 ## 🐧 Running on Linux
@@ -52,7 +52,7 @@ Follow these steps to run the script on Linux:
    - Paste it into your web browser
 
 4. **Complete authentication**
-   - Visit the [ChatGPT for Teachers]([https://help.openai.com/en/articles/12844995-chatgpt-for-teachers](https://chatgpt.com/k12-verification)) page
+   - Visit the [ChatGPT for Teachers](https://chatgpt.com/k12-verification) page
    - Sign in using your registered email address
 
 ## ⚠️ Troubleshooting
