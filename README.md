@@ -21,6 +21,7 @@ Follow these steps to run the script on Windows:
 
 3. **Access the application**
    - Copy the URL from the `Link` attribute in the output
+   - open new private window
    - Paste it into your web browser
 
 4. **Complete authentication**
@@ -49,6 +50,7 @@ Follow these steps to run the script on Linux:
 
 3. **Access the application**
    - Copy the URL from the `Link` attribute in the terminal output
+   - open new private window
    - Paste it into your web browser
 
 4. **Complete authentication**
