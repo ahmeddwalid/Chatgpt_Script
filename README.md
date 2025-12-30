@@ -5,8 +5,7 @@ This guide will help you run the script on both Windows and Linux systems.
 ## 📋 Prerequisites
 
 - Python installed on your system
-- A valid OpenAI account email
-
+  
 ## 🖥️ Running on Windows
 
 Follow these steps to run the script on Windows:
