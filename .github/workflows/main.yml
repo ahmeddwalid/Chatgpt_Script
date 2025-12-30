@@ -1,0 +1,17 @@
+name: Daily Python Script
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # الساعة 12 ظهرًا
+  workflow_dispatch:
+
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python chatgpt.py
