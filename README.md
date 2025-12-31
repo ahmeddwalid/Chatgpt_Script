@@ -17,15 +17,7 @@ A cross-platform Python script that generates temporary email addresses for Chat
 
 ### Prerequisites
 
-- Python 3.8 or higher (no additional packages needed!)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/ahmeddwalid/Chatgpt_Script.git
-cd Chatgpt_Script
-```
+- Python installed on your system
 
 ### Usage
 
@@ -83,4 +75,6 @@ python chatgpt.py
 
 ## 📄 License
 
-This project is for educational purposes only.
+This project is licensed under the [MIT License](LICENSE).
+
+> ⚠️ **Disclaimer**: This project is intended for **educational purposes only**. The author is not responsible for any misuse or violation of third-party Terms of Service. Use responsibly.
