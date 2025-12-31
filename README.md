@@ -1,69 +1,86 @@
-# 🚀 Getting Started
+# 📧 Temporary Email Generator for ChatGPT Teachers
 
-This guide will help you run the script on both Windows and Linux systems.
+A cross-platform Python script that generates temporary email addresses for ChatGPT Teachers verification.
 
-## 📋 Prerequisites
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20|%20Linux%20|%20macOS-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- Python installed on your system
-  
-## 🖥️ Running on Windows
+## ✨ Features
 
-Follow these steps to run the script on Windows:
+- 🔄 **Auto-retry** with exponential backoff
+- 🎨 **Colored terminal output** (cross-platform)
+- 🛡️ **Robust error handling** for network issues
+- 🖥️ **Works on** Windows, Linux, and macOS
 
-1. **Open Command Prompt**
-   - Navigate to the script directory
-   - Or open CMD in the same folder (Shift + Right-click → "Open command window here")
+## 🚀 Quick Start
 
-2. **Execute the script**
-   ```bash
-   python chatgpt.py
-   ```
+### Prerequisites
 
-3. **Access the application**
-   - Copy the URL from the `Link` attribute in the output
-   - open new private window
-   - Paste it into your web browser
+- Python 3.8 or higher (no additional packages needed!)
 
-4. **Complete authentication**
-   - Visit the [ChatGPT for Teachers](https://chatgpt.com/k12-verification) page
-   - Sign in using your registered email address
+### Installation
 
-## 🐧 Running on Linux
+```bash
+# Clone the repository
+git clone https://github.com/ahmeddwalid/Chatgpt_Script.git
+cd Chatgpt_Script
+```
 
-Follow these steps to run the script on Linux:
+### Usage
 
-1. **Open Terminal**
-   - Navigate to the script directory using `cd` command
-   - Or open terminal in the same folder (Right-click → "Open in Terminal")
+```bash
+python3 chatgpt.py
+```
 
-2. **Execute the script**
-   
-   Try one of the following commands:
-   ```bash
-   python3 chatgpt.py
-   ```
-   
-   Or alternatively:
-   ```bash
-   python chatgpt.py
-   ```
+On Windows, you can also use:
 
-3. **Access the application**
-   - Copy the URL from the `Link` attribute in the terminal output
-   - open new private window
-   - Paste it into your web browser
+```bash
+python chatgpt.py
+```
 
-4. **Complete authentication**
-   - Visit the [ChatGPT for Teachers](https://chatgpt.com/k12-verification) page
-   - Sign in using your registered email address
+## 📋 How It Works
 
-## ⚠️ Troubleshooting
+1. **Run the script** — It generates a random temporary email address
+2. **Copy the link** — Open it in a **private/incognito browser window**
+3. **Verify on ChatGPT** — Go to [ChatGPT for Teachers](https://chatgpt.com/k12-verification) and sign in with the generated email
+4. **Check inbox** — Return to the temp mail page to view verification emails
 
-- **Command not found**: Ensure Python is installed and added to your system PATH
-- **Permission denied (Linux)**: Try running with `sudo` or check file permissions
-- **Module errors**: Install required dependencies using `pip install -r requirements.txt`
+## 📸 Example Output
 
-## ⛔ Warning
+```
+╔══════════════════════════════════════════════════════════════╗
+║           📧  Temporary Email Generator  📧                  ║
+╚══════════════════════════════════════════════════════════════╝
 
-The account will be deleted after 24 hours.
-You must run the script again to create a new account and use it.
+  ℹ  Starting email generation...
+
+  →  Attempt 1/30: Trying 'abcdefgh@erzi.me'
+
+╔══════════════════════════════════════════════════════════════╗
+║                    ✅  SUCCESS  ✅                           ║
+╚══════════════════════════════════════════════════════════════╝
+
+  📬 Email:  abcdefgh@erzi.me
+  🔗 Link:   https://em.bjedu.tech/en?jwt=...
+```
+
+## ⚠️ Important Notes
+
+> **Warning**: Generated accounts expire after **24 hours**. Run the script again to create a new one.
+
+- Always use a **private/incognito window** when opening the link
+- The script automatically retries on network errors
+- Press `Ctrl+C` to cancel at any time
+
+## 🔧 Troubleshooting
+
+| Issue               | Solution                                    |
+| ------------------- | ------------------------------------------- |
+| `command not found` | Ensure Python is installed and in your PATH |
+| `Connection errors` | Check your internet connection              |
+| `Rate limited`      | Wait a few minutes and try again            |
+
+## 📄 License
+
+This project is for educational purposes only.
