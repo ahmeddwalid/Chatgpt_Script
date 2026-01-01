@@ -40,8 +40,9 @@ python chatgpt.py
 The script guides you through 3 simple steps:
 
 1. **Creates email & password** — Generates a temp email and secure password
-2. **Opens ChatGPT signup** — Browser opens automatically; you complete signup
-3. **Monitors inbox** — Automatically detects verification email and opens the link
+2. **Open ChatGPT Signup** — Open a new private/incognito window, then visit [ChatGPT Signup](https://chatgpt.com/k12-verification)
+3. **Sign Up** — Click on the signup button and enter the provided username and password
+4. **Monitor Inbox** — Go back to the link provided by the tool at the beginning and you will find the verification code
 
 At the end, you'll see your full login credentials to save.
 
@@ -49,24 +50,23 @@ At the end, you'll see your full login credentials to save.
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║        📧  ChatGPT Account Setup Assistant  📧               ║
+║                    ✅  SUCCESS  ✅                           ║
 ╚══════════════════════════════════════════════════════════════╝
 
-──────────────────────────────────────────────────────────────────
-  Step 1: Creating Temporary Email
-──────────────────────────────────────────────────────────────────
+  Your Credentials:
 
-  ✔  Password generated: Kx9#mPqR2$vLnJ4w
-  ✔  Email created: abcdefgh@erzi.me
+  📧 Email:    kryudqyp@erzi.me
+  🔑 Password: $iOL7h47FJZpcmw3
 
-╔══════════════════════════════════════════════════════════════╗
-║              🎉  SETUP COMPLETE  🎉                          ║
-╚══════════════════════════════════════════════════════════════╝
-
-  � Email:    abcdefgh@erzi.me
-  � Password: Kx9#mPqR2$vLnJ4w
+  📬 Inbox:    https://em.bjedu.tech/en?jwt=yourjwt
 
   ⚠ Save these credentials! Account expires in 24 hours.
+
+  Next Steps:
+  1. Open the inbox link above in a private/incognito window
+  2. Go to https://chatgpt.com/k12-verification
+  3. Sign up using the email and password above
+  4. Check the inbox for the verification email
 ```
 
 ## ⚠️ Important Notes
